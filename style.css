@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#text{
+    width: 200px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    margin: 15px;
+}
+
+#text:focus{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+#sub{
+    width: 200px;
+    height: 50px;
+}
+
+#image{
+    fill: purple;
+    stroke: purple;
+    stroke-width: 2;
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+#h1_text{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    color: blue;
+}
